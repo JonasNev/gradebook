@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "GradeBook.Tests/1.0.0": {
+      "Gradebook.Tests/1.0.0": {
         "dependencies": {
           "GradeBook": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
@@ -15,7 +15,7 @@
           "xunit.runner.visualstudio": "2.4.0"
         },
         "runtime": {
-          "GradeBook.Tests.dll": {}
+          "Gradebook.Tests.dll": {}
         }
       },
       "coverlet.collector/1.2.0": {},
@@ -697,7 +697,7 @@
     }
   },
   "libraries": {
-    "GradeBook.Tests/1.0.0": {
+    "Gradebook.Tests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
