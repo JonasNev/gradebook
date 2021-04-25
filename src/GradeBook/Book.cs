@@ -31,7 +31,6 @@ namespace GradeBook
                 AddGrade(60);
                 break;
 
-
                 default:
                 AddGrade(0);
                 break;
@@ -43,7 +42,7 @@ namespace GradeBook
         {
             if(grade == 90.0)
             {
-
+                grades.Add(grade);
             }
             if(grade <=100 && grade >=0)
             {
@@ -51,7 +50,7 @@ namespace GradeBook
             }
             else
             {
-                Console.WriteLine("Invalit value");
+                Console.WriteLine("Invalid value");
             }
         }
         public Statistics GetStatistics()
@@ -61,7 +60,7 @@ namespace GradeBook
             result.high = double.MinValue;
             result.low = double.MaxValue;
 
-            for(var index = 0; index < grades.Count; index += 1)
+            for(var index = 0; index < grades.Count; index += 1 )
             {
               
                 result.high = Math.Max(grades[index], result.high);
@@ -92,6 +91,7 @@ namespace GradeBook
                 default:
                 result.Letter = 'F';
                 break;
+
             }
            
         }
