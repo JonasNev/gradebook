@@ -93,7 +93,7 @@ namespace GradeBook
                 break;
 
             }
-           
+           return result;
         }
         private List<double> grades = new List<double>();
 
